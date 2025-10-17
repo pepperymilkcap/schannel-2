@@ -1,0 +1,37 @@
+MIT License
+
+Copyright (c) 2025 Schannel OpenSSL Wrapper Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+DISCLAIMER:
+
+This software is intended for compatibility purposes on legacy Windows XP/2000
+systems. Users assume all risks associated with modifying system DLL files.
+
+- Create system backups before installation
+- Test in non-production environments first
+- The authors are not responsible for system instability or data loss
+- Windows XP/2000 are unsecure, unsupported operating systems
+- This software only addresses TLS/SSL limitations, not other security issues
+
+Use of OpenSSL is subject to OpenSSL's own license terms.
+See: https://www.openssl.org/source/license.html

@@ -1,0 +1,37 @@
+# Build artifacts
+*.o
+*.obj
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.aps
+*.cache
+*.log
+
+# Directories
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+.vs/
+
+# Temporary files
+*.tmp
+*~
+.DS_Store
+
+# OpenSSL binaries (if included)
+openssl/bin/
+openssl/lib/
+
+# IDE files
+*.vcxproj.user
+*.sln.docstates

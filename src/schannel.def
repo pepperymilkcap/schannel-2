@@ -1,0 +1,36 @@
+LIBRARY schannel
+EXPORTS
+    ; SSPI Functions
+    AcceptSecurityContext
+    AcquireCredentialsHandleA
+    AcquireCredentialsHandleW
+    ApplyControlToken
+    CompleteAuthToken
+    DecryptMessage
+    DeleteSecurityContext
+    EncryptMessage
+    EnumerateSecurityPackagesA
+    EnumerateSecurityPackagesW
+    FreeContextBuffer
+    FreeCredentialsHandle
+    InitializeSecurityContextA
+    InitializeSecurityContextW
+    MakeSignature
+    QueryContextAttributesA
+    QueryContextAttributesW
+    QuerySecurityContextToken
+    QuerySecurityPackageInfoA
+    QuerySecurityPackageInfoW
+    RevertSecurityContext
+    VerifySignature
+    
+    ; Schannel-specific exports
+    SealMessage
+    UnsealMessage
+    
+    ; SpUserMode functions (for SSPI)
+    SpUserModeInitialize
+    SpInstanceInit
+    SpInitialize
+    SpShutdown
+    SpGetInfo
